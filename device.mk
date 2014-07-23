@@ -61,7 +61,7 @@ PRODUCT_PACKAGES += \
 
 # Mark as low ram device
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.low_ram=true
+    ro.config.low_ram=false
 
 # Enable KSM by default
 PRODUCT_PROPERTY_OVERRIDES += \
