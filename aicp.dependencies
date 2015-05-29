@@ -2,21 +2,21 @@
   {
     "repository": "AICP/device_amazon_otter-common",
     "target_path": "device/amazon/otter-common",
-    "branch":      "lp5.0"
+    "branch":      "lp5.1"
   },
   {
     "repository": "CyanogenMod/android_device_amazon_omap4-common",
     "target_path": "device/amazon/omap4-common",
-    "branch":      "cm-12.0"
+    "branch":      "cm-12.1"
   },
   {
     "repository": "CyanogenMod/android_kernel_amazon_otter-common",
     "target_path": "kernel/amazon/otter-common",
-    "branch":      "cm-12.0"
+    "branch":      "cm-12.1"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_amazon",
     "target_path": "vendor/amazon",
-    "branch":      "cm-12.0"
+    "branch":      "cm-12.1"
   }
 ]
