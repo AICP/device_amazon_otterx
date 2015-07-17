@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_FOLDER)/fstab.otterx:/root/fstab.otterx \
     $(DEVICE_FOLDER)/init.otterx.rc:/root/init.otterx.rc \
     $(DEVICE_FOLDER)/init.otterx.usb.rc:/root/init.otterx.usb.rc \
+    $(DEVICE_FOLDER)/init.recovery.otterx.rc:/root/init.recovery.otterx.rc \
     $(DEVICE_FOLDER)/ueventd.otterx.rc:/root/ueventd.otterx.rc
 
 # Prebuilt system/bin
@@ -50,15 +51,6 @@ ADDITIONAL_BUILD_PROPERTIES += \
     usb.vendor=1949 \
     usb.product.adb=0006 \
     usb.product.mtpadb=0006
-
-# Low-RAM optimizations
-ADDITIONAL_BUILD_PROPERTIES += \
-    ro.config.low_ram=true \
-    persist.sys.force_highendgfx=true \
-    dalvik.vm.jit.codecachesize=0 \
-    config.disable_atlas=true \
-    ro.config.max_starting_bg=8 \
-    ro.sys.fw.bg_apps_limit=16
 
 # Dalvik settings
 ADDITIONAL_BUILD_PROPERTIES += \
